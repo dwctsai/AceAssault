@@ -24,6 +24,8 @@ When launching the project in Unity, you might see the "HDRP Wizard" pop up.  If
 
 > The "HDRP Wizard" detects that the game is using Unity's built-in render pipeline and asks if you want to convert to the High Definition Render Pipeline.  Be sure not to convert to HDRP.
 
+> To disable the "HDRP Wizard" from popping up every time you start Unity, scroll down to the bottom of the wizard and un-check `Show on start`
+
 ## Technical Implementation
 
 ### Unity Technologies Used
