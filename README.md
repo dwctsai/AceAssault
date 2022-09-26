@@ -8,9 +8,19 @@
 ## How to Play
 
 ### Controls
-Press the `Arrow Keys` or `WASD` to move your spaceship.
+Press `Arrow Keys` or `WASD` to move your spaceship.
 
 Press `CTRL` to shoot lasers.
+
+## Technical Implementation
+
+### Technologies Used
+The project is implemented using the following:
+- C#
+- The rail system is implemented using Unity's Timeline feature and Animation tracks.  A Master Timeline organizes the player spaceship's rail as well as control tracks controlling enemy waves.
+- The lasers, explosions, and special VFX are implemented using Unity's Particle System.
+- The map is created using Unity's Terrain Tools.
+- Bloom, Ambient Occlusion, Color Grading, Vignetting, and Auto Exposure are implemented using Unity's Post Processing package.
 
 ## Build Notes 
 
@@ -26,10 +36,8 @@ When launching the project in Unity, you might see the "HDRP Wizard" pop up.  If
 
 > To disable the "HDRP Wizard" from popping up every time you start Unity, scroll down to the bottom of the wizard and un-check `Show on start`
 
-## Technical Implementation
-
-### Unity Technologies Used
-The project implements the rail system via Unity's Timeline feature.  The lasers and special VFX are made using Unity's Particle System.
+### GitHub Storage Limitations
+Due to GitHub's maximum file size limitations, this repository uses Git LFS for files over 100 MB in size.  However, due to GitHub's Git LFS implementation itself having a maximum storage quota (2 GB for base tier), this repository cannot hold all of the Unity assets used in the final build of this project.  However, I have included all of the C# code used in this project, which can be found in `Assets\Scripts`.
 
 ## Inspiration
 This project was inspired by the "Complete C# Unity Game Developer 3D" course by GameDev.tv on Udemy.
