@@ -17,10 +17,10 @@ Press `CTRL` to shoot lasers.
 ### Technologies Used
 The project is implemented using the following:
 - C#
-- The rail system is implemented using Unity's Timeline feature and Animation tracks.  A Master Timeline organizes the player spaceship's rail as well as control tracks controlling enemy waves.
-- The lasers, explosions, and special VFX are implemented using Unity's Particle System.
-- The map is created using Unity's Terrain Tools.
-- Bloom, Ambient Occlusion, Color Grading, Vignetting, and Auto Exposure are implemented using Unity's Post Processing package.
+- The rail system is implemented using Unity's `Timeline` feature and `Animation` tracks.  A Master Timeline organizes the player spaceship's rail as well as control tracks controlling enemy waves.
+- The lasers, explosions, and special VFX are implemented using Unity's `Particle System`.
+- The map is created using Unity's `Terrain Tools`.
+- Bloom, Ambient Occlusion, Color Grading, Vignetting, and Auto Exposure are implemented using Unity's `Post Processing` package.
 
 ## Build Notes 
 
